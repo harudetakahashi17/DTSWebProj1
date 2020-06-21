@@ -176,9 +176,11 @@ li {
 }
 
 .messages {
+    padding-top: 50px;
     padding-bottom: 80px;
     text-align: center;
     font-weight: bolder;
+    color: white;
 }
     
 .messages span {
