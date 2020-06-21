@@ -180,6 +180,10 @@ li {
     text-align: center;
 }
 
+.messages span {
+    color: white;
+}
+
 .message {
     background-color: #ea1313;
     cursor: pointer;
