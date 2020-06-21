@@ -178,6 +178,7 @@ li {
 .messages {
     padding-bottom: 80px;
     text-align: center;
+    font-weight: bolder;
 }
 
 .messages span {
