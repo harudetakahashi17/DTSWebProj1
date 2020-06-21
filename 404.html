@@ -1,0 +1,67 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>WE ARE SORRY</title>
+  </head>
+  
+  <style>
+    body{
+      margin: 0;
+      font-family:Arial;
+      background-color:dimgray;
+    }
+    
+    a{
+      text-decoration: none;
+    }
+    
+    .notify{
+      text-align:center;
+      color:white;
+    }
+    
+    .notify h1{
+      text-size: 36px;
+      letter-spacing:5px;
+    }
+    
+    .notify p{
+      margin: 20px auto;
+    }
+    
+    .signature{
+      text-align: right;
+      color:white;
+    }
+    
+    .signature p{
+      margin-top:30px;
+      margin-bottom: 30px;
+    }
+    
+    .signature h4{
+      padding-bottom:40px;
+    }
+  </style>
+  
+  <body>
+    <div class="notify">
+      <h1>We're very sorry for the inconvenience</h1>
+      <p>
+        This page will redirect you to <a href="https://harudetakahashi17.github.io/index.html">
+        https://harudetakahashi17.github.io/index.html</a> in 3 seconds. If not redirected please do click the given link.
+      </p>
+    </div>
+    <div class="signature">
+      <p>Sincerely,</p>
+      <h4>Dev. Team D8</h4>
+    </div>
+</html>
+
+<script>
+  window.onload(function(){
+    setTimeout(function(){
+      window.location.href = 'https://harudetakahashi17.github.io/index.html';
+    }, 3000);
+  })
+</script>
