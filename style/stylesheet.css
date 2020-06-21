@@ -174,3 +174,18 @@ li {
     font-weight:bold;
     color:violet;
 }
+
+.messages {
+    padding-bottom: 80px;
+    text-align: center;
+}
+
+.message {
+    background-color: #ea1313;
+    cursor: pointer;
+    padding: 15px 40px;
+}
+
+.message:active {
+    top: 7px;
+}
