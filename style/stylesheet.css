@@ -181,6 +181,8 @@ li {
     text-align: center;
     font-weight: bolder;
     color: white;
+    background-image: url(../contents/img/albion.jpg);
+    background-size: cover;
 }
     
 .messages span {
