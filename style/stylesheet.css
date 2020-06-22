@@ -195,6 +195,10 @@ li {
     padding: 15px 40px;
 }
 
+.message a{
+    color: white;
+}
+
 .message:active {
     top: 7px;
 }
