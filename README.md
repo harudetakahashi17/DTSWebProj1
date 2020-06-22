@@ -8,3 +8,7 @@ DTS Web Project  Group D8
 4. Footer: Fadli Ahmad Jubaedi (0447977121-575)
 5. Animasi: 
 6. Responsif: 
+
+# Unassigned
+0447977151-223	Faritzal Rachman Junioananta
+0447977231-42	Galih Dapa Imanda
