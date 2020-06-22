@@ -176,13 +176,33 @@ li {
 }
 
 .messages {
+    animation-name: footerAnim;
+    animation-duration: 10s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
     padding-top: 50px;
     padding-bottom: 80px;
     text-align: center;
     font-weight: bolder;
     color: white;
-    background-image: url(../contents/img/albion.jpg);
+    /*    background-image: url(../contents/img/albion-min.png);*/
     background-size: cover;
+}
+
+@keyframes footerAnim{
+    0% {
+        background-image: url(../contents/img/albion-min.png);
+        background-position-y:top;
+    }
+    50%{
+        background-image: url(../contents/img/footer2.jpg);
+        background-position-y:center;
+    }
+    100% {
+        background-image: url(../contents/img/footer3.png);
+        background-position-y:bottom;
+    }
 }
     
 .messages span {
