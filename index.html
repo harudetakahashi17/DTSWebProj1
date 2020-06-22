@@ -4,15 +4,18 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Albion Web Remake</title>
-    <link rel="stylesheet" href="style/stylesheet.css">
-    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style/stylesheet.css" />
+    <link rel="stylesheet" href="style/responsive.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 </head>
 <body>
     <div class="navbar">
         <div class="navbar-logo">
             <h2>House of Haviks</h2>
         </div>
-        <div class="navbar-menu">
+        <span class="menu-icon" onclick="showMenu()"><i class="fa fa-bars"></i></span>
+        <div class="navbar-menu" id="navMenu">
             <ul>
                 <li><a href="#">Contact Us</a></li>
                 <li><a href="#">About Us</a></li>
@@ -109,3 +112,9 @@
     </div>
 </body>
 </html>
+
+<script>
+    function showMenu() {
+        alert('Collapse Menu is not working yet');
+    }
+</script>

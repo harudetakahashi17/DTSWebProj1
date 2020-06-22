@@ -98,8 +98,21 @@ li {
         transform: translateY(5px);
     }
 
-.fa{
-    padding-right:10px;
+
+.menu-icon {
+    color: ghostwhite;
+    float: right;
+    font-size: 25px;
+    padding: 11px 20px;
+    display: none;
+}
+
+.menu-icon:hover{
+    color:white;
+}
+
+.fa {
+    margin-right: 5px;
 }
 
 .discord {
@@ -219,3 +232,4 @@ li {
 .message:active {
     top: 7px;
 }
+
