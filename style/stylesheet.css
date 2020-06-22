@@ -195,8 +195,8 @@ li {
     padding: 15px 40px;
 }
 
-.message a{
-    color: white;
+.messages-header a{
+    color:white;
 }
 
 .message:active {
