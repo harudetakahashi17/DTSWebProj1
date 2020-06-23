@@ -233,3 +233,36 @@ li {
     top: 7px;
 }
 
+.footer {
+    color: white;
+}
+
+.footer-list {
+    float: left;
+    padding: 20px 20px;
+}
+
+.footer-list h2 {
+    text-align: center;
+}
+
+.btn-wrapper {
+    float: right;
+    padding: 20px 20px;
+}
+
+    .facebook {
+        background-color: blue;
+        color: white;
+    }
+
+    .twitter {
+        background-color: cyan;
+        color: white;
+    }
+
+    .yt {
+        background-color: red;
+        color: white;
+    }
+
