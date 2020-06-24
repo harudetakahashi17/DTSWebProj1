@@ -155,7 +155,7 @@ li {
 .content-thumb img{
     display:block;
     position:relative;
-    width: 80%;
+    max-width:250px;
     border:2px solid white;
     border-radius: 50%;
     text-align:center;
